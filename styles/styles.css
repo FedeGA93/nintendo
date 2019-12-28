@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Audiowide|Open+Sans:300,800&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css");
+.background-color {
+  background-color: #ff6054;
+}
+.style-font-menu {
+  font-family: "Audiowide", cursive;
+  font-size: 1.5rem;
+}
+.section-flex {
+  display: flex;
+  flex-flow: row wrap;
+}
+.youtube-frame {
+  width: 100vw;
+  height: 34vh;
+}
+.anchors-modifier {
+  color: black;
+}
+.footer-color {
+  background-color: #5dcdf3;
+}
+.limit-text {
+  display: block;
+}
+.text-style-open {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+}
+iframe {
+  width: 100%;
+  height: 232px;
+  border: 0;
+}
+
+@media screen and (min-width: 767px) {
+  .youtube-frame {
+    width: 40%;
+  }
+  .padding-text {
+    padding-bottom: 14.5vh;
+  }
+  .limit-text {
+    width: 54%;
+  }
+  .section-flex {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+}
+@media screen and (max-width: 576px) {
+  .text-style-open {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+  }
+  .adapt-mobile {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
